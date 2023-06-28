@@ -1,13 +1,31 @@
 {
-    "name": "svg-logo-maker",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "directories": {
-      "lib": "lib"
-    },
-    "scripts": {
-        "start": "node index.js",
-        "test": "jest"
-    }
+  "name": "svg-logo-maker",
+  "version": "1.0.0",
+  "description": "Generate an SVG logo with your choice of shape (circle, square, or triangle), shape color, text (limit of 3 characters), and text color. Shape and text colors can be chosen using color keywords or hexadecimal numbers.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devramirez/svg-logo-maker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devramirez/svg-logo-maker/issues"
+  },
+  "homepage": "https://github.com/devramirez/svg-logo-maker#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "29.5.0"
+  }
 }
