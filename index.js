@@ -1,7 +1,7 @@
 // require modules 
 const fs = require('fs');
 const inquirer = require('inquirer');
-const path = require('path');
+const generateSVG = require('./lib/shapes');
 
 // function to create new svg file using inquirer and fs
 function createLogo(response) {
