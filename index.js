@@ -9,7 +9,7 @@ function createLogo(response) {
     fs.writeFile(fileName, svg, () => console.log('Generated logo.svg'));
 }
 
-// initialize, ask questions then createLogo using responses and catch any errors
+// initialize, ask questions then createLogo using responses and catch any errors with callback 
 function init() {
     inquirer
     .prompt(questions)
