@@ -1,7 +1,6 @@
 // import modules required
 const fs = require('fs');
 const inquirer = require('inquirer');
-const setShape = require('./lib/shapes.test.js');
 
 // import shape classes 
 const {Triangle, Square, Circle } = require('./lib/shapes.js')
@@ -76,3 +75,5 @@ function promptUser() {
         }
     });
 }
+
+promptUser();
