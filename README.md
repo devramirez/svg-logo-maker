@@ -14,6 +14,10 @@ Generate an SVG logo with your choice of shape (circle, square, or triangle), sh
 
 https://github.com/devramirez/svg-logo-maker/assets/45980046/a65fae21-50ad-4451-a3fe-04deb2745496
 
+NPM test
+
+<img width="495" alt="npm-test" src="https://github.com/devramirez/svg-logo-maker/assets/45980046/3c9eb408-c534-4a08-96f7-a4ba08b99671">
+
 
 Logo Examples
 
