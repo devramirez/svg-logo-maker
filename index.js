@@ -67,7 +67,7 @@ function promptUser() {
         // prompt for shape color
         {
             type: "input",
-            message: "Choose shape color(Enter either color keyword or hex value): ",
+            message: "Choose shape color(Enter either color keyword or hex value):",
             name: "shapeBackgroundColor",
         }
     ])
