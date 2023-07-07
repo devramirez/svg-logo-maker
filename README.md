@@ -1,5 +1,8 @@
 # SVG-Logo-Maker
 ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
+![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Jest](https://img.shields.io/badge/Jest-323330?style=for-the-badge&logo=Jest&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ## Description
 Generate an SVG logo with your choice of shape (circle, square, or triangle), shape color, text (limit of 3 characters), and text color. Shape and text colors can be chosen using color keywords or hexadecimal numbers.
 ## Deployed Application URL
@@ -13,6 +16,7 @@ https://github.com/devramirez/svg-logo-maker/assets/45980046/a65fae21-50ad-4451-
 
 
 Logo Examples
+
 <img width="248" alt="example1" src="https://github.com/devramirez/svg-logo-maker/assets/45980046/1c79b5e5-6417-4fdb-a164-f05cc48b24b9">
 <img width="214" alt="example2" src="https://github.com/devramirez/svg-logo-maker/assets/45980046/8c10158c-da3c-425b-a98a-24ded1ff8a48">
 <img width="203" alt="example3" src="https://github.com/devramirez/svg-logo-maker/assets/45980046/d69513de-061e-44dd-9b66-0d3d65ba9fa7">
