@@ -29,30 +29,50 @@ function writeToFile(fileName, answers) {
     svgString += `<circle cx="150" cy="115" r="80" fill="${answers.shapeBackgroundColor}"/>`;
   }
 
-  
+  // <text> tag gives rise to text alignment, text-content/text-color taken in from user prompt and gives default font size of "40"
+  svgString += `<text x="150" y="130" text-anchor="middle" font-size="40" fill="${answers.textColor}">${answers.text}</text>`;
+  // Closing </g> tag
+  svgString += "</g>";
+  // Closing </svg> tag
+  svgString += "</svg>";
 
-
+  // using fs to generate svg file
+  fs.writeFile(fileName, svgString, (err) => {
+    err ? console.log(err) : console.log("Generated logo.svg");
+  });
 }
 
-
-
-
-// function to create new svg file using inquirer and fs
-// function createLogo(response) {
-//     const svg = setShape(response);
-//     fs.writeFile(fileName, svg, () => console.log('Generated logo.svg'));
-// }
-
-// initialize, ask questions then createLogo using responses and catch any errors with callback 
-// function init() {
-//     inquirer
-//     .prompt(questions)
-//     .then((response) => {
-//         createLogo(response);
-//     })
-//     .catch(err => {
-//         console.log(err)
-//     });
-// }
-
-// init();
+// function initiates inquirer to prompt user with questions 
+function promptUser() {
+    inquirer
+    .prompt([
+        // text to display
+        {
+            type: "input",
+            message: "Enter what text to display in your logo: (Only up to three characters allowed)",
+            name: "text",
+        },
+        // text color for shape
+        {
+            type: "input",
+            message: "Choose text color: (Enter either color keyword(snow) or a hexadecimal(#ffffff))",
+            name: "textColor"
+        },
+        // shape choice
+        {
+            type: "list",
+            message: "What shape would you like your logo to be?",
+            choices: ["Circle", "Square", "Triangle"],
+            name: "shape"
+        },
+    ])
+    .then((answers) => {
+        // error handling for prompt
+        if(answers.text.length > 3) {
+            console.log("Value must be no more than 3 characters long");
+            promptUser();
+        } else {
+            writeToFile("logo.svg", answers)
+        }
+    });
+}
