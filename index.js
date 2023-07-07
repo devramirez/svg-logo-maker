@@ -64,6 +64,12 @@ function promptUser() {
             choices: ["Circle", "Square", "Triangle"],
             name: "shape"
         },
+        // prompt for shape color
+        {
+            type: "input",
+            message: "Choose shape color(Enter either color keyword or hex value): ",
+            name: "shapeBackgroundColor",
+        }
     ])
     .then((answers) => {
         // error handling for prompt
