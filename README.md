@@ -5,8 +5,13 @@ Generate an SVG logo with your choice of shape (circle, square, or triangle), sh
 ## Deployed Application URL
 [Google Drive Link](https://drive.google.com/file/d/1q6ByG1_O-0u8-ype2HvrNMz3JpSMfClc/view)
 ## Project Walkthrough
-![Walkthrough] (https://github.com/devramirez/svg-logo-maker/assets/45980046/56f39028-fec4-4a86-b8a1-a2851f97cd49)
+![Walkthrough](https://github.com/devramirez/svg-logo-maker/assets/45980046/56f39028-fec4-4a86-b8a1-a2851f97cd49)
+
 ## Screenshots
+
+https://github.com/devramirez/svg-logo-maker/assets/45980046/a65fae21-50ad-4451-a3fe-04deb2745496
+
+
 Logo Examples
 <img width="248" alt="example1" src="https://github.com/devramirez/svg-logo-maker/assets/45980046/1c79b5e5-6417-4fdb-a164-f05cc48b24b9">
 <img width="214" alt="example2" src="https://github.com/devramirez/svg-logo-maker/assets/45980046/8c10158c-da3c-425b-a98a-24ded1ff8a48">
