@@ -16,8 +16,6 @@ https://github.com/devramirez/svg-logo-maker/assets/45980046/804e6b63-31ca-43dc-
 
 ## Screenshots
 
-https://github.com/devramirez/svg-logo-maker/assets/45980046/a65fae21-50ad-4451-a3fe-04deb2745496
-
 NPM test
 
 <img width="495" alt="npm-test" src="https://github.com/devramirez/svg-logo-maker/assets/45980046/3c9eb408-c534-4a08-96f7-a4ba08b99671">
@@ -43,7 +41,10 @@ To run this application, use the command line to navigate to the directory of th
 ## Contributors
 Open to collaboration, if you choose to do so open an issue and modify any changes you would like to see on a feature branch and wait for approval before merging to the main branch.
 ## Tests
-npm test
+NPM test:
+
+<img width="495" alt="npm-test" src="https://github.com/devramirez/svg-logo-maker/assets/45980046/3c9eb408-c534-4a08-96f7-a4ba08b99671">
+
 ## GitHub
 [Link to GitHub](https://github.com/devramirez)
 ## Questions
