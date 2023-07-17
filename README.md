@@ -6,9 +6,11 @@
 ## Description
 Generate an SVG logo with your choice of shape (circle, square, or triangle), shape color, text (limit of 3 characters), and text color. Shape and text colors can be chosen using color keywords or hexadecimal numbers.
 ## Deployed Application URL
-[Google Drive Link](https://drive.google.com/file/d/1q6ByG1_O-0u8-ype2HvrNMz3JpSMfClc/view)
+[Google Drive Link](https://drive.google.com/file/d/1rANiVQh3vDDwYuE8Pb5TRNqp3-hAD1as/view)
 ## Project Walkthrough
-![Walkthrough](https://github.com/devramirez/svg-logo-maker/assets/45980046/56f39028-fec4-4a86-b8a1-a2851f97cd49)
+
+![Walkthroug](https://github.com/devramirez/svg-logo-maker/assets/45980046/43816ba1-0670-446a-bbae-abdb32cd54b9)
+
 
 ## Screenshots
 
